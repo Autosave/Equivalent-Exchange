@@ -10,13 +10,13 @@ header div a:last-of-type  {
 	border-right: none;
 }
 
-#inventory a {
+.items {
 	font-style: italic;
 	text-decoration: none;
 	color: black;
 }
 
-#inventory a:hover {
+.items:hover {
 	text-decoration: underline;
 }
 
