@@ -55,7 +55,7 @@ header div {
 #equipment {
 	position: relative;
 	left: 78%;
-	bottom: 120%;
+	bottom: 120.3%;
 	height: 50%;
 	width: 20%;
 	text-align: center;
@@ -77,7 +77,7 @@ header div {
 	position: relative;
 	margin: auto;
 	left: 38%;
-	bottom: 156%;
+	bottom: 156.3%;
 	height: 40%;
 	width: 20%;
 	text-align: center;
@@ -87,8 +87,8 @@ header div {
 #actionbar {
 	position: relative;
 	margin: auto;
-	bottom: 176%;
-	height: 20%;
+	bottom: 166.5%;
+	height: 10%;
 	width: 52%;
 	border: 1px solid black;
 }
@@ -99,6 +99,7 @@ header div {
 	float: left;
 	height: 100%;
 	width: 15%;
+	padding-right: 1%;
 }
 
 #attack-button-container, #defend-button-container, #potion-button-container, #flee-button-container {
@@ -106,7 +107,8 @@ header div {
 	position: relative;
 	height: 100%;
 	width: 15%;
-	padding-left: 1.5%;
+	padding-left: 0.7%;
+	padding-right: 0.7%;
 }
 
 #right-circle-container {
@@ -123,5 +125,4 @@ header div {
 	margin: auto;
 	max-width: 100%;
 	max-height: 100%;
-	
 }

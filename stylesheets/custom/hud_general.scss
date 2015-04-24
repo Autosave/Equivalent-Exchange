@@ -1,0 +1,58 @@
+// Mixins
+@mixin center-aligned {
+	display: flex;
+	align-items: center;
+}
+
+// Styling
+html, body {
+	height: 100%;
+	background-color: #F2F2F2;
+}
+
+header {
+	height: 5%;
+	background-color: #000;
+	text-align: center;
+	@include center-aligned;
+}
+
+header div {
+	margin: auto;
+}
+
+.container-fluid {
+	.row {
+		height: 50%;
+	}
+	height: 95%;
+	background-color: #F2F2F2;
+	text-align: center;
+}
+
+#actionbar {
+	.row {
+		height: 50%;
+		@include center-aligned;
+	}
+}
+
+#inventory, #story, #equipment, #formulas, #actionbar, #stats {
+	height: 100%;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#actionbar {
+	.options {
+		visibility: hidden;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,67 @@
+// Location and related styles
+header {
+	div { 
+		a {
+			font-family: Impact, Charcoal, sans-serif;
+			font-size: 16px;
+			text-decoration: none;
+			color: #E3E3E3;
+			border-right: 1px solid #E3E3E3;
+			padding: 0 5px;
+		}
+	}
+}
+
+header {
+	div {
+		a:last-of-type {
+			border-right: none;
+		}
+	}
+}
+
+header {
+	div {
+		a:hover {
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+}
+
+.current-location {
+	color: #aa0022 !important;
+	text-decoration: none !important;
+}
+
+// Inventory and related styles
+#inventory {
+	overflow: auto;
+}
+
+.items {
+	font-style: italic;
+	text-decoration: none !important;
+	color: #404040;
+}
+
+.items:hover {
+	color: #000;
+}
+
+// Equipment and related styles
+#equipment {
+	overflow: auto;
+}
+
+#equipment p {
+	display: inline-block;
+}
+
+.equipment:hover {
+	cursor: pointer;
+} 
+
+p {
+	margin: 0;
+}
