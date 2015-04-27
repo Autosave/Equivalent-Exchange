@@ -62,6 +62,11 @@ header {
 	cursor: pointer;
 } 
 
+#stats p {
+	display: inline-block;
+}
+
+// Override bootstrap.min.css
 p {
 	margin: 0;
 }

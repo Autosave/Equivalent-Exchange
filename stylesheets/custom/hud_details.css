@@ -37,6 +37,9 @@ header div a:hover {
 .equipment:hover {
   cursor: pointer; }
 
+#stats p {
+  display: inline-block; }
+
 p {
   margin: 0; }
 
