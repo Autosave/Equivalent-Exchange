@@ -10,17 +10,6 @@ html, body {
 	background-color: #F2F2F2;
 }
 
-header {
-	height: 5%;
-	background-color: #000;
-	text-align: center;
-	@include center-aligned;
-}
-
-header div {
-	margin: auto;
-}
-
 .container-fluid {
 	.row {
 		height: 50%;

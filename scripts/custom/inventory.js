@@ -35,6 +35,7 @@ $(document).ready(function() {
 	// Provides tooltip functionality to items in the inventory.
 	$('.items').tooltipster({
 		theme: 'tooltipster-noir',
+		speed: 500
 	});
 
 });
